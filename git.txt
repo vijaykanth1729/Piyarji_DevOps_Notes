@@ -66,3 +66,9 @@ git log (View history)
 
 git log --oneline
 
+
+Git clone:
+-----------
+downloads the repository..
+
+git clone repo_url
