@@ -51,3 +51,18 @@ git init
 
 git status (to check what changes were happend in the files..)
 
+git add file_name (eg: git add .) this move your changes to staging area.
+
+git commit -m "written git intro"
+
+git remote add origin (RemoteURL)
+
+git branch -M main 
+
+git push -u origin main 
+
+
+git log (View history)
+
+git log --oneline
+
