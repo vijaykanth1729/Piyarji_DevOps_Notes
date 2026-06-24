@@ -1,0 +1,53 @@
+Git: Its a source code management system used to store:
+
+IAC code, (Terraform)
+K8s manifests files
+Helm charts
+Jenkins (CICD)
+Apllication code
+Ansible code
+
+Used for tracking and Auditing purposes.
+
+Git maintains the history of every change..
+
+Every developer has complete repository
+complete history
+all branches..
+
+Git architecture:
+--------------------
+Files your currently editing that area is called working directory..
+
+staging area (Index):
+------------------------
+Temporary areas before commit..
+git add .
+
+Local repository:
+------------------
+permement commit history.
+
+git commit 
+
+Remote repository:
+---------------------
+Github/GitLab/Bitbucket
+
+git push
+
+
+Working Directory-->git add-->Staging-->git commit-->LocalRepo-->Push-->Remote repo.
+
+git --version
+
+ git config --global user.name "vijaykanth1729"
+
+ git config --global user.email "personalvijay007@gmail.com"
+
+git init  for initilizing the empty repo in the current working directory..so that git can track required changes
+
+git init 
+
+git status (to check what changes were happend in the files..)
+
