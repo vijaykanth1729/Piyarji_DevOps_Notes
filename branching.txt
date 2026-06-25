@@ -28,6 +28,92 @@ main
 
  
 
+git push origin --delete feature-login
+
+Merge Types:
+---------------
+merge vs rebase..
+
+both are used for merging changes from one branch into another branch..
+
+merge:
+----------
+
+it preserves the history of all the commits 
+and it create a new commit at the end with details related to both branches..
+
+main 
+
+c1 (xyz)
+
+c2 (xyyzz)
+
+
+feature (f1) (ABC)
+
+git merge main  (when ur or feature branch)
+
+get merge feature (when ur on main branch)
+
+it will create a new commit and preserver all the history of your both branches..
+
+c1--f1--c2--f2--new_commit  (default merge pattern)
+
+
+Rebase:
+----------
+it wont preseve the history it actually overrides the commits data 
+and it creates a nice linear history without adding any extra commits..
+
+git rebase main (this u will execute when ur on feature branch)
+
+c1--c2--f1  (This is linear way of doing it..)
+
+if your on main branch and exuecte a rebase againist your feature branch then all the changes of your main
+branch will go and sit down to the feature branch which is not expected..
+
+git rebase feature1 (imagine im running it from main branch)
+
+f1-f2-c1-c2  (this will collpase entire flow..)
+
+always execute your rebase command from where your changes ur working i mean in feature branch..
+
+https://learngitbranching.js.org/
+
+https://gitbybit.com/
+
+
+merge conflicts:
+-------------------
+
+<<<<<<<<< HEAD
+
+PORT = 8080
+
+=============
+
+PORT = 9090
+
+>>>>>>>>>>>>>>> feature  
+
+
+Resolve manually 
+
+git add .
+git commit 
+
+git cherry-pick commit-id
+
+Fetch  (Downloads the changes)
+
+pull (Downloads the changes + Merges )
+
+develop 
+feature/*
+release/*
+hotfix/* immediate bug fixes in prod..
+
+
 
 
 
