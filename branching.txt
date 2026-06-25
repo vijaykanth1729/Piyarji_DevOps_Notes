@@ -19,7 +19,15 @@ main
  +------ feature-login 
  |
  +---- feature-payment
+
+ delete a branch:
+ --------------------
+ git branch -d feature1 
+
+ Force delete: git branch -D feature1 
+
  
+
 
 
 
