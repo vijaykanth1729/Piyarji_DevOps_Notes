@@ -1,0 +1,25 @@
+what is branching:
+--------------------
+Branch = Independent line of development
+
+Default: Main 
+
+Create branch:
+-------------------
+
+git branch -b feature1  
+
+git checkout -b feature-login  (Creates the branch and checkout to that branch.)
+
+git branch (this will list all branches present)
+
+main
+ |
+ |
+ +------ feature-login 
+ |
+ +---- feature-payment
+ 
+
+
+

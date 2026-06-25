@@ -72,3 +72,26 @@ Git clone:
 downloads the repository..
 
 git clone repo_url
+
+PULL: git pull origin main (pulls the  latest changes from remote repository to local repo)
+
+
+Ignoring files:
+----------------
+create 
+  .gitignore
+
+ex:
+   *.log
+   *.tmp 
+   node_modules/
+   terraform.tfstate
+
+Important for DevOps
+
+never commit:
+-------------------
+terraform.tfstate
+pem Files
+secrets
+passwords
